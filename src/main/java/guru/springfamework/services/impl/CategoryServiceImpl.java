@@ -1,8 +1,9 @@
-package guru.springfamework.services;
+package guru.springfamework.services.impl;
 
 import guru.springfamework.api.v1.mapper.CategoryMapper;
 import guru.springfamework.api.v1.model.CategoryDTO;
 import guru.springfamework.repositories.CategoryRepository;
+import guru.springfamework.services.CategoryService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
